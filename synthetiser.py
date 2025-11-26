@@ -4,7 +4,7 @@ import music
 import math
 
 def mapInteger(anInteger, from1, to1, from2, to2):
-    span1 = to1 - from1a
+    span1 = to1 - from1
     span2 = to2 - from2
     scaling_factor = span1 / span2
     return math.floor(anInteger / scaling_factor)
